@@ -1,0 +1,43 @@
+body{
+    background-color: #95D2B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D8EFD3;
+}
+
+#container{
+    width: 300px;
+    height: auto;
+    background-color: #55AD9B;
+    border-radius: 5%;
+}
+
+li{
+    list-style-type: none;
+}
+
+#container input{
+    height: 20px;
+    border-radius: 5px;
+}
+
+.delBtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color:  #55AD9B;
+    border: #55AD9B;
+}
+
+.delBtn:hover{
+    background-color: #95D2B3;
+}
+
+#checkAll{
+    width: 30px;
+    height: 30px;
+    margin-right:-3px ;    
+}
+
